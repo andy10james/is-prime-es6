@@ -1,0 +1,33 @@
+{
+  "name": "is-prime-es6",
+  "version": "1.0.0",
+  "description": "This package provides a function to which you may pass any integet and it will return true if the given number is a prime number, false otherwise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy10james/is-prime-es6.git"
+  },
+  "keywords": [
+    "is",
+    "prime",
+    "numbers",
+    "es6"
+  ],
+  "author": "andrewj",
+  "license": "MIT",
+  "babel": {
+    "presets": [ "@babel/preset-env" ]
+  },
+  "bugs": {
+    "url": "https://github.com/andy10james/is-prime-es6/issues"
+  },
+  "homepage": "https://github.com/andy10james/is-prime-es6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "jest": "^26.6.3"
+  }
+}
