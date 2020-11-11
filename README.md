@@ -16,6 +16,9 @@ Using native ES6 modules:
 
 ```js
 import { isPrime } from "./node_modules/is-prime-es6/index.js";
+
+isPrime(7) // true
+isPrime(9) // false
 ```
 
 ## Customer feedback
